@@ -13,7 +13,7 @@ const Users = () => {
     return <LinearProgress color="primary" />;
   } else {
     return (
-      <Grid container spacing={1}>
+      <Grid container spacing={3}>
         {githubContext.users.map((user) => (
           <Grid item xs={6} sm={3} key={user.id}>
             <UserItem user={user} />
