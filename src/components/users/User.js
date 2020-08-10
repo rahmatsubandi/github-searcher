@@ -59,7 +59,7 @@ const User = ({ match }) => {
               {bio && <p>{bio}</p>}
             </div>
             <div className="card-body">
-              <a href={html_url} target="_blank">
+              <a href={html_url} target="_blank" rel="noopener noreferrer">
                 <button className="btn btn-outline-info">
                   Visit Github Profile
                 </button>
